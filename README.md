@@ -45,7 +45,7 @@ This application performs **no live API calls**, production tests, remote agent 
 
 ## Practical pilot
 
-[Open a scoped engineering pilot enquiry](https://github.com/esheenj/integration-reliability-assessment/issues/new?template=pilot.yml). An issue is an enquiry, not a confirmed service or checkout. A pilot can be proposed for one bounded integration: discovery, synthetic failure reproduction, acceptance checks and an engineering handoff. Feasibility, budget, schedule and access are agreed separately. Do not include secrets, personal information, production payloads or confidential documentation in an issue.
+[Email the Sigma Code business](mailto:info@sigmacode.co.za?subject=Integration%20reliability%20pilot%20enquiry) or [open a scoped engineering pilot issue](https://github.com/esheenj/integration-reliability-assessment/issues/new?template=pilot.yml). Both are enquiries, not confirmed services or checkout. The email and public business site were verified from [sigmacode.co.za](https://sigmacode.co.za/) on 14 November 2026. A pilot can be proposed for one bounded integration: discovery, synthetic failure reproduction, acceptance checks and an engineering handoff. Feasibility, budget, schedule and access are agreed separately. Do not include secrets, personal information, production payloads or confidential documentation in an issue.
 
 For underlying tools, see the [Webhook Idempotency Lab](https://esheenj.github.io/webhook-idempotency-lab/), [Agent Tool Schema Diff Lab](https://esheenj.github.io/agent-tool-schema-diff-lab/) and [Citation Provenance Inspector](https://esheenj.github.io/citation-provenance-inspector/). Those are distinct, separately maintained public MVPs.
 
