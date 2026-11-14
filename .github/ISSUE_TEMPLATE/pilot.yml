@@ -1,0 +1,46 @@
+name: Scoped integration engineering pilot
+description: Discuss a single CRM, API, webhook or AI-workflow integration without sharing sensitive data.
+title: "[Pilot enquiry] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This public issue is an enquiry only. It is not a payment, quotation, booking or service commitment.
+        Do **not** share passwords, API keys, private customer data, production payloads, internal endpoints or secret configuration.
+  - type: dropdown
+    id: integration
+    attributes:
+      label: Integration category
+      description: Choose the closest category, without identifying private customers.
+      options:
+        - CRM or customer journey
+        - Webhook and API
+        - AI agent or tool integration
+        - Data reconciliation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: In generic terms, what business outcome should work reliably?
+      placeholder: "Example: A successful deal should create exactly one draft invoice even if a webhook retries."
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Most important failure or uncertainty
+      description: Describe expected behavior and current symptoms using fictitious or nonsensitive examples.
+      placeholder: "Example: Duplicate notifications may create two draft invoices."
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy confirmation
+      options:
+        - label: I have not included credentials, real customer records or private implementation details.
+          required: true

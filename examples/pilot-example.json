@@ -1,0 +1,14 @@
+{
+  "project": "Fictional CRM to invoice workflow",
+  "scenario": "A CRM notification creates a draft invoice in a sample accounting system",
+  "answers": {
+    "identity": "implemented",
+    "idempotency": "missing",
+    "retries": "implemented",
+    "schema": "tested",
+    "secrets": "tested",
+    "observability": "implemented",
+    "recovery": "unknown",
+    "evidence": "unknown"
+  }
+}
