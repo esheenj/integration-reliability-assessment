@@ -4,6 +4,12 @@
 
 A free, local-first readiness self-assessment for CRM handoffs, webhook consumers, API integrations and AI-enabled workflows. Answer eight concise questions, inspect a transparent weighted **self-reported exposure index**, and export a prioritized, testable remediation brief. No account, API key, telemetry or backend.
 
+**Part of Sigma Code's Integration Reliability Tools.** Start here if your CRM, API, webhook or AI integration seems functional, but nobody has confirmed how it handles retries, mismatched data, lost acknowledgements or recovery.
+
+**Who it's for:** business operators, integration agencies and technical teams planning a review. **What you get:** a self-reported exposure assessment and a prioritized testing brief that you can take into a scoped engineering discussion.
+
+**Scope boundary:** this tool asks questions; it does not test your live systems, verify your answers, issue a certification or promise availability. Companion tools for [failure-test planning](https://esheenj.github.io/workflow-failure-test-builder/) and [delivery-record inspection](https://esheenj.github.io/integration-delivery-trace-inspector/) are separate free utilities.
+
 **Live browser demo:** https://esheenj.github.io/integration-reliability-assessment/
 
 ## Who this helps
